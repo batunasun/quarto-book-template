@@ -1,0 +1,21 @@
+# Quarto temporary files
+.quarto/
+**/*.quarto_ipynb
+
+# Rendered book files
+_book/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# RStudio
+.Rproj.user/
+
+# R session files
+.Rhistory
+.RData
+
+# Python
+__pycache__/
+.ipynb_checkpoints/

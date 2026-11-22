@@ -1,0 +1,28 @@
+project:
+  type: book
+
+lang: mn
+
+book:
+  title: "Хугацааны цувааны шинжилгээ"
+  subtitle: "R хэл дээрх практик хэрэглээ"
+  #author: "Д.Батнасан"
+  cover-image: images/cover.png
+  #favicon: images/must-logo.png
+  sidebar:
+    logo: images/must-logo.png
+  chapters:
+    - index.qmd
+    #- appendix.qmd
+
+
+format:
+  html:
+    toc-title: "Дэд гарчиг"
+    theme:
+      light: cosmo
+      dark: darkly
+    css: custom.css
+    toc: true
+    number-sections: true
+    code-copy: true
