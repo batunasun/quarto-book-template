@@ -12,7 +12,7 @@
    - Positron дээр **Terminal** нээж, богино замтай хавтас руу орно (`D:\Documents\positron`):
      ```powershell
      cd D:\Documents\positron
-     git clone [https://github.com/batunasun/](https://github.com/batunasun/)<шинэ-номын-нэр>.git
+     git clone https://github.com/batunasun/<шинэ-номын-нэр>.git
      ```
 
 3. **Номын мэдээлэл болон бүлгүүдийг шинэчлэх:**
