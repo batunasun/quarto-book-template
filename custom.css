@@ -1,6 +1,7 @@
 /* Номын хавтасны зурагт хэмжээ, сүүдэр, булангийн дугуйралт өгөх */
 .cover-img,
 .quarto-cover-image {
+  float: right;
   max-width: 210px;
   height: auto;
   border-radius: 6px;
@@ -38,4 +39,11 @@ body.quarto-dark .quarto-cover-image {
   max-height: 75px;
   width: auto;
   margin-bottom: 10px;
+}
+
+/* Урт математик томьёонууд гар утсан дээр хуудсыг хажуу тийш сунгахаас сэргийлэх */
+.math.display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 4px 0;
 }
