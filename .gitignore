@@ -19,3 +19,13 @@ Thumbs.db
 # Python
 __pycache__/
 .ipynb_checkpoints/
+
+# Positron / VS Code хувийн тохиргоо
+.vscode/
+.positron/
+
+# Хэрэв санамсаргүй quarto publish локал дээр ажиллуулбал үлддэг түр хавтас
+.quarto-publish-worktree-*/
+
+# Зарим үед санамсаргүй үүсэх docs/ хавтас (gh-pages горимд хэрэггүй)
+docs/
