@@ -20,9 +20,8 @@
    - `index.qmd` болон бүлгийн `.qmd` файлуудаа бичнэ / хуулна.
    - Зургуудыг `images/` хавтсанд хийнэ.
 
-4. **GitHub дээр автомат нийтлэх тохиргоог 1 удаа асаах:**
-   - Шинэ репозиторийн **Settings $\rightarrow$ Actions $\rightarrow$ General** хэсэгт **Read and write permissions**-ийг сонгож **Save** дарна.
-   - **Settings $\rightarrow$ Pages** хэсэгт **Branch** дээр **`gh-pages`** (`/ (root)`) сонгож **Save** дарна (эхний `push`-ийн дараа `gh-pages` салбар автоматаар үүснэ).
+4. **GitHub Pages-ийг 1 удаа идэвхжүүлэх:**
+   - Анхны **Commit & Push** хийсний дараа **Settings $\rightarrow$ Pages** хэсэгт **Branch** дээр **`gh-pages`** (`/ (root)`) сонгож **Save** дарна.
 
 5. **Нийтлэх ба шинэчлэх:**
    - Локал дээр урьдчилан харах бол: `quarto preview`
